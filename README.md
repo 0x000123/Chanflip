@@ -176,3 +176,43 @@ db_file = "/etc/chainflip/data.db"
 ### Saving the File
 Once you're happy with your configuration file and have inserted a valid endpoint address, exit and save the file by using ``CTRL(Control)+x`` and when prompted type ``Y`` then hit ``Enter``.
 
+## Start Up
+To start the chainflip-node, run the following command.
+```
+sudo systemctl start chainflip-node
+```
+To check on the service, we use status.
+```
+sudo systemctl status chainflip-node
+```
+
+To view the live logs for the validator software, check on them via tail. You can quit at anytime using ``ctrl/control + c``
+Check the Node:
+```
+tail -f /var/log/chainflip-node.log
+```
+
+Once the node has finished syncing, we can start up the engine.
+To start the chainflip-engine, we issue another command.
+```
+sudo systemctl start chainflip-engine
+```
+To check on the service, we use status.
+```
+sudo systemctl status chainflip-engine
+```
+Finally, tell both the services to start again after a reboot:
+```
+sudo systemctl enable chainflip-node
+```
+```
+sudo systemctl enable chainflip-engine
+```
+
+Check the engine logs:
+```
+tail -f /var/log/chainflip-engine.log
+```
+
+
+get faucet here [DISCORD](https://discord.gg/t97fegrQyQ)
