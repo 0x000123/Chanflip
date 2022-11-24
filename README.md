@@ -216,3 +216,12 @@ tail -f /var/log/chainflip-engine.log
 
 
 get faucet here [DISCORD](https://discord.gg/t97fegrQyQ)
+
+
+## STAKING FLIP 
+
+Stake flip here ===> stake-perverance.chainflip.io
+
+step :
+1. Klik Add Node 
+2. Fill your Public Key (SS58)
