@@ -225,6 +225,10 @@ Stake flip here ===> [stake-perverance.chainflip.io](https://stake-perverance.ch
 step :
 1. Klik <kbd>Add Node<kbd>
 2. Fill your Public Key (SS58)
+3. Register Node
+4. Confirm Transaction
+
+``and Back to terminal``
 
 ## Register Validator Key
 ```
