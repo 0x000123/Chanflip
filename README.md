@@ -223,7 +223,7 @@ get faucet here [DISCORD](https://discord.gg/t97fegrQyQ)
 Stake flip here ===> [stake-perverance.chainflip.io](https://stake-perverance.chainflip.io/)
 
 step :
-1. Klik Add Node 
+1. Klik <kbd>Add Node<kbd>
 2. Fill your Public Key (SS58)
 
 ## Register Validator Key
