@@ -220,8 +220,58 @@ get faucet here [DISCORD](https://discord.gg/t97fegrQyQ)
 
 ## STAKING FLIP 
 
-Stake flip here ===> stake-perverance.chainflip.io
+Stake flip here ===> [stake-perverance.chainflip.io](https://stake-perverance.chainflip.io/)
 
 step :
 1. Klik Add Node 
 2. Fill your Public Key (SS58)
+
+## Register Validator Key
+```
+sudo chainflip-cli \
+      --config-path /etc/chainflip/config/Default.toml \
+      register-account-role Validator
+```
+
+## Activate
+```
+sudo chainflip-cli \
+    --config-path /etc/chainflip/config/Default.toml \
+    activate
+```
+
+## Rotation Validator
+```
+sudo chainflip-cli \
+    --config-path /etc/chainflip/config/Default.toml rotate
+```
+
+## Customized Validator Name
+```
+sudo chainflip-cli \
+    --config-path /etc/chainflip/config/Default.toml \
+    vanity-name <New_Name>
+```
+
+## Start NODE & ENGINE
+```
+sudo systemctl start chainflip-node
+```
+
+```
+sudo systemctl start chainflip-engine
+```
+
+## Check Logs
+
+#### NODE
+```
+tail -f /var/log/chainflip-node.log
+```
+
+#### ENGINE
+```
+tail -f /var/log/chainflip-engine.log
+```
+
+✅️ DONO
