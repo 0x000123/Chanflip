@@ -220,7 +220,7 @@ get faucet here [DISCORD](https://discord.gg/t97fegrQyQ)
 
 ## STAKING FLIP 
 
-Stake flip here ===> [stake-perverance.chainflip.io](https://stake-perverance.chainflip.io/)
+Stake flip here ===> [stake-perverance.chainflip.io](https://stake-perseverance.chainflip.io/)
 
 step :
 1. Klik <kbd>Add Node<kbd>
